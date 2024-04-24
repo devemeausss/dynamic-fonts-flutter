@@ -4,6 +4,7 @@
 
 import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
+import 'dart:ui' as ui;
 // TODO(andrewkolos): The flutter framework wishes to add a new class named
 // `AssetManifest` to its API (see https://github.com/flutter/flutter/pull/119277).
 // However, doing so would break integration tests that utilize google_fonts due
@@ -66,7 +67,7 @@ TextStyle googleFontsTextStyle({
   Paint? foreground,
   Paint? background,
   List<Shadow>? shadows,
-  List<FontFeature>? fontFeatures,
+  List<ui.FontFeature>? fontFeatures,
   TextDecoration? decoration,
   Color? decorationColor,
   TextDecorationStyle? decorationStyle,
